@@ -67,6 +67,12 @@ public class Metodos {
 
         double valor;
 
+        public Emprestimo(double valor) {
+
+            this.valor = valor;
+
+        }
+
         public String EmprestimoMes() {
 
             return "Com taxa de 1% ao mês, com o valor: " + this.valor + "o empréstimo vai ficar: " + (this.valor + (this.valor * 0.01)) ;

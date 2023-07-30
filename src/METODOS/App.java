@@ -42,6 +42,13 @@ public class App {
         //Chamando métodos
         String textoSaudacao = saudacao.SaudacaoData();
         System.out.println(textoSaudacao + " São " + saudacao.hours);
+
+        //Instanciando a subclasse Emprestimo
+        Metodos.Emprestimo emprestimo = metodos.new Emprestimo(1750.00);
+
+        // Chamando métodos
+        String resultadoEmprestimo =  emprestimo.EmprestimoMes();
+        System.out.println("Resultado emprestimo: " + resultadoEmprestimo);
     }
 
 }
