@@ -24,6 +24,8 @@ public class Temperatura {
         
         List<String> meses = new ArrayList<>(Arrays.asList("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"));
         
+
+        
         for (int i = 0; i < temp.size(); i ++) {
 
             if (temp.get(i) > mediaTemperaturas) {
