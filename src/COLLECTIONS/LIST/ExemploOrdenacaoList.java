@@ -1,4 +1,4 @@
-package COLLECTIONS;
+package COLLECTIONS.LIST;
 
 import java.util.ArrayList;
 import java.util.Collections;

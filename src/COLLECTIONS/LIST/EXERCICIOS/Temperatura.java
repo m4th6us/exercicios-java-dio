@@ -1,4 +1,4 @@
-package COLLECTIONS.EXERCICIOS;
+package COLLECTIONS.LIST.EXERCICIOS;
 
 import java.util.ArrayList;
 import java.util.Arrays;
