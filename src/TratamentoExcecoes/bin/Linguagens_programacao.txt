@@ -1,0 +1,7 @@
+Linguagens
+
+JAVA
+PYTHON
+C#
+GO
+KOTLIN
